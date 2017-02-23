@@ -17,8 +17,8 @@ echo "$version installed"
 echo 'now active the version ,now '
 
 pyenv virtualenv $version $version_name
-
-pyenv activate $version_name
-
 echo
 echo "begin the pyenv journey"
+echo
+echo "use 'pyenv activate $version_name' to use it"
+echo
